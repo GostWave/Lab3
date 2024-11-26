@@ -1,6 +1,6 @@
-package Objects;
+package objects;
 
-import AbstractClasses.Object;
+import abstractclasses.Object;
 
 public class Boat extends Object {
     public Boat(String objectname){

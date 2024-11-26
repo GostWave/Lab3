@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Start: create some abstract classes and other">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClasses/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClasses/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Action/Dream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Action/GoHiking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Action/Listen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Action/Suggest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Objects/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Objects/River.java" afterDir="false" />
+    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Create some classes and updrage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractClasses/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractClasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action/Dream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Dream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action/GoHiking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/GoHiking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action/Listen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Listen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action/Suggest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Suggest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persons/Znaika.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persons/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Znaika.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,7 @@
       <workItem from="1732101697727" duration="2333000" />
       <workItem from="1732380304670" duration="13000" />
       <workItem from="1732524683069" duration="10688000" />
-      <workItem from="1732613067006" duration="9192000" />
+      <workItem from="1732613067006" duration="11412000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -156,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732543728943</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create some classes and updrage">
+      <option name="closed" value="true" />
+      <created>1732622859400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732622859400</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +186,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="no matter" />
     <MESSAGE value="Start: create some abstract classes and other" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start: create some abstract classes and other" />
+    <MESSAGE value="Create some classes and updrage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create some classes and updrage" />
   </component>
 </project>

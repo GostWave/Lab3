@@ -1,4 +1,4 @@
-package AbstractClasses;
+package abstractclasses;
 
 public abstract class Object {
     private String objectname;

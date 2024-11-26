@@ -1,6 +1,6 @@
-package Groups;
+package groups;
 
-import AbstractClasses.Group;
+import abstractclasses.Group;
 
 
 public class Malyshi extends Group {

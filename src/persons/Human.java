@@ -1,6 +1,6 @@
-package Persons;
+package persons;
 
-import AbstractClasses.Person;
+import abstractclasses.Person;
 
 public class Human extends Person {
 

@@ -1,7 +1,7 @@
-package Action;
+package action;
 
-import AbstractClasses.Group;
-import AbstractClasses.Person;
+import abstractclasses.Group;
+import abstractclasses.Person;
 
 public final class Suggest {
     public static void suggest(Person p, String phrase){

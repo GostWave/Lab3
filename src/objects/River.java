@@ -1,6 +1,6 @@
-package Objects;
+package objects;
 
-import AbstractClasses.Object;
+import abstractclasses.Object;
 
 public class River extends Object {
 

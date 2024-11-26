@@ -1,8 +1,8 @@
-package Action;
+package action;
 
 
-import AbstractClasses.Group;
-import AbstractClasses.Person;
+import abstractclasses.Group;
+import abstractclasses.Person;
 
 public final class GoHiking {
     private String participants;

@@ -1,14 +1,14 @@
 
-import Action.Dream;
-import Groups.Malyshi;
-import Objects.Boat;
-import Objects.River;
-import Persons.Human;
-import Persons.Znaika;
-import Action.*;
+import action.Dream;
+import groups.Malyshi;
+import objects.Boat;
+import objects.River;
+import persons.Human;
+import persons.Znaika;
+import action.*;
 public class Main {
     public static void main(String[] args) {
-        Znaika znaika = new Persons.Znaika();
+        Znaika znaika = new persons.Znaika();
 
         Malyshi malyshi = new Malyshi();
         malyshi.addMemders(new Human("malysh1") );
