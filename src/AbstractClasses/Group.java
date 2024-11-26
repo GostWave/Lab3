@@ -27,7 +27,7 @@ public abstract class Group {
 
     public void removeMembers(int index){
         if (index<0 | index>=members.size()){
-            System.out.println("Неерный индекс");
+            System.out.println("Неверный индекс");
         }
         else {
             members.remove(index);

@@ -12,4 +12,7 @@ public abstract class Person {
     public String getName() {
         return name;
     }
+    public String Say(String text){
+        return this.getName()+" сказал: "+text;
+    }
 }
