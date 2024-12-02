@@ -1,5 +1,6 @@
 
 import action.Dream;
+import enums.BoatType;
 import groups.Malyshi;
 import objects.Boat;
 import objects.River;
@@ -18,10 +19,13 @@ public class Main {
         Dream.dream(malyshi,"как бы отправиться в путешествие");
         GoHiking hiking = new GoHiking();
         Suggest.suggest("Некоторые", hiking.message());
+        System.out.println();
         River river = new River("река");
-        System.out.println(river.getObjectName());
-        Boat boat = new Boat("лодка");
-        System.out.println(boat.getObjectName());
+
+        Boat boat = new Boat("лодка", BoatType.KAYAK,250,85);
+        Suggest.suggest("Другие",Swim.swimMessage());
+        System.out.print(" по "+river.getObjectName()+" на " +boat.getObjectName());
+
 
 
 

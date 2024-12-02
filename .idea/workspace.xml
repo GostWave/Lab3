@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Create some classes and updrage">
+    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/action/Swim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/BoatType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractClasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Action/Dream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Dream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Action/GoHiking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/GoHiking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Action/Listen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Listen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Action/Suggest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Suggest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persons/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Znaika.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/Suggest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Suggest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Znaika.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Notification.DisplayName-DoNotAsk-GitHub Copilot": "GitHub Copilot",
-    "Notification.DoNotAsk-GitHub Copilot": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-GitHub Copilot&quot;: &quot;GitHub Copilot&quot;,
+    &quot;Notification.DoNotAsk-GitHub Copilot&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -115,7 +109,12 @@
       <workItem from="1732101697727" duration="2333000" />
       <workItem from="1732380304670" duration="13000" />
       <workItem from="1732524683069" duration="10688000" />
-      <workItem from="1732613067006" duration="11412000" />
+      <workItem from="1732613067006" duration="11650000" />
+      <workItem from="1732643922545" duration="8000" />
+      <workItem from="1732808191220" duration="2679000" />
+      <workItem from="1732968477506" duration="703000" />
+      <workItem from="1733063386710" duration="2110000" />
+      <workItem from="1733137143708" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -165,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732622859400</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update">
+      <option name="closed" value="true" />
+      <created>1732638929393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732638929393</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +194,7 @@
     <MESSAGE value="no matter" />
     <MESSAGE value="Start: create some abstract classes and other" />
     <MESSAGE value="Create some classes and updrage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create some classes and updrage" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

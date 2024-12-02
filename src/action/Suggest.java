@@ -11,6 +11,6 @@ public final class Suggest {
         System.out.println(p.getName()+" предлажили "+phrase);
     }
     public static void suggest(String who_sugget, String phrase ){
-        System.out.println(who_sugget+" предлагали "+phrase);
+        System.out.print(who_sugget+" предлагали "+phrase);
     }
 }

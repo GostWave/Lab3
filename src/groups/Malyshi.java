@@ -8,4 +8,5 @@ public class Malyshi extends Group {
         super("Малыши");
     }
 
+
 }

@@ -7,4 +7,6 @@ public class River extends Object {
     public River(String objectname){
         super(objectname);
     }
+    public void flow(){}
+
 }
