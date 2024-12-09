@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/action/Swim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/BoatType.java" afterDir="false" />
+    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Create enum and all connected with boat">
+      <change afterPath="$PROJECT_DIR$/src/action/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/FlyOnHotAirBaloon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/Idea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plan" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/Listen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Listen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/action/Suggest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Suggest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/Swim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Swim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Znaika.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -114,7 +121,9 @@
       <workItem from="1732808191220" duration="2679000" />
       <workItem from="1732968477506" duration="703000" />
       <workItem from="1733063386710" duration="2110000" />
-      <workItem from="1733137143708" duration="3978000" />
+      <workItem from="1733137143708" duration="8178000" />
+      <workItem from="1733317305428" duration="6558000" />
+      <workItem from="1733679614328" duration="8221000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -172,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732638929393</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create enum and all connected with boat">
+      <option name="closed" value="true" />
+      <created>1733141232046</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733141232046</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +212,7 @@
     <MESSAGE value="Start: create some abstract classes and other" />
     <MESSAGE value="Create some classes and updrage" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Create enum and all connected with boat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create enum and all connected with boat" />
   </component>
 </project>

@@ -2,10 +2,11 @@ package objects;
 
 import abstractclasses.Object;
 import enums.BoatType;
+import interfaces.Property;
 
 import java.lang.reflect.Type;
 
-public class Boat extends Object {
+public class Boat extends Object implements Property {
     private BoatType type;
     private int length;
     private int width;
@@ -26,5 +27,9 @@ public class Boat extends Object {
 
     public String getSize(){
         return "Длина: "+length+" ширина: "+width;
+    }
+    @Override
+    public void getProperty(){
+        System.out.println("Тип: "+type+" длина: "+ length + " ширина: "+width);
     }
 }

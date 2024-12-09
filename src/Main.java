@@ -3,6 +3,7 @@ import action.Dream;
 import enums.BoatType;
 import groups.Malyshi;
 import objects.Boat;
+import objects.HotAirBaloon;
 import objects.River;
 import persons.Human;
 import persons.Znaika;
@@ -15,16 +16,23 @@ public class Main {
         malyshi.addMemders(new Human("malysh1") );
         malyshi.addMemders(new Human("malysh2") );
 
-        Listen.listen();
+        // 1 сточка
+        Listen.listenHistory();
         Dream.dream(malyshi,"как бы отправиться в путешествие");
+        // 2 строчка
         GoHiking hiking = new GoHiking();
-        Suggest.suggest("Некоторые", hiking.message());
-        System.out.println();
         River river = new River("река");
-
         Boat boat = new Boat("лодка", BoatType.KAYAK,250,85);
-        Suggest.suggest("Другие",Swim.swimMessage());
-        System.out.print(" по "+river.getObjectName()+" на " +boat.getObjectName());
+        Suggest.suggest("Некоторые", hiking.message());
+        Suggest.suggest(" другие");
+        Swim.swim(river,boat);
+
+        // 3 строчка
+        HotAirBaloon hotAirBaloon = new HotAirBaloon("воздушный шар",5,"Жёлтый","резина");
+        znaika.Say("Давайте сделаем "+ hotAirBaloon.getObjectName()+" и ");
+        FlyOnHotAirBaloon.fly();
+
+
 
 
 
