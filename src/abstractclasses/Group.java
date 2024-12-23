@@ -44,6 +44,7 @@ public abstract class Group {
 
         return members.size();
     }
-
+    public abstract void checkFlyOnHotAirBaloon();
+    
 
 }
