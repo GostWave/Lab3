@@ -1,20 +1,30 @@
 package objects;
 
-import abstractclasses.Object;
+
+import abstractclasses.Objects;
 import enums.BoatType;
+import exception.NotAllowableBoatSize;
 import interfaces.Property;
 
 import java.lang.reflect.Type;
 
-public class Boat extends Object implements Property {
+public class Boat extends Objects implements Property {
     private BoatType type;
     private int length;
     private int width;
-    public Boat(String objectname, BoatType type, int length, int width){
+    public Boat(String objectname, BoatType type){
         super(objectname);
         this.type=type;
-        this.length=length;
-        this.width=width;
+
+    }
+    public void setSize(int length,int width){
+        try {
+            if (length<width){
+                throw new NotAllowableBoatSize("Неверные данные","неверные размеры лодки");
+            }
+        } catch (NotAllowableBoatSize e){
+            System.out.println(e.getMessage());
+        }
     }
 
     public BoatType getType() {
@@ -31,5 +41,17 @@ public class Boat extends Object implements Property {
     @Override
     public void getProperty(){
         System.out.println("Тип: "+type+" длина: "+ length + " ширина: "+width);
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        return true;
+
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
     }
 }

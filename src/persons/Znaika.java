@@ -8,6 +8,11 @@ public final class Znaika extends Person {
         super(name, age);
 
     }
+    @Override
+    public String toString(){
+        return "Знайка [Возраст: "+this.getAge()+"]";
+    }
+
 
 
 }

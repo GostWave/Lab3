@@ -1,9 +1,10 @@
 package objects;
 
-import abstractclasses.Object;
+
+import abstractclasses.Objects;
 import interfaces.Property;
 
-public class HotAirBaloon extends Object implements Property {
+public class HotAirBaloon extends Objects implements Property {
     private int size;
     private String color;
     private String material;
@@ -19,6 +20,19 @@ public class HotAirBaloon extends Object implements Property {
     @Override
     public void getProperty(){
         System.out.println( "Размер шара: "+size+" Цвет: "+color+" Материал: "+material);
+
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        return true;
+
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
     }
 
 }

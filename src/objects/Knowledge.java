@@ -1,8 +1,9 @@
 package objects;
 
-import abstractclasses.Object;
 
-public class Knowledge extends Object {
+import abstractclasses.Objects;
+
+public class Knowledge extends Objects {
     private String knowledge;
     public Knowledge(String objectname, String knowledge){
         super(objectname);

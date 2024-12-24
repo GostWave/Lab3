@@ -19,6 +19,10 @@ public class Malyshi extends Group {
             System.out.println("Малыши никогда не летали на воздушном шаре");
         }
     }
+    @Override
+    public String toString(){
+        return "Малыши "+this.getMembers();
+    }
 
 
 }

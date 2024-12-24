@@ -1,8 +1,9 @@
 package objects;
 
-import abstractclasses.Object;
 
-public class Idea extends Object {
+import abstractclasses.Objects;
+
+public class Idea extends Objects {
     private String idea;
     public Idea(String objectname,String idea){
         super(objectname);

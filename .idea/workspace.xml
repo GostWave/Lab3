@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/src/objects/Knowledge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/NotAllowableBoatSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plan" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Fly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/FlyOnHotAirBaloon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Objects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/Idea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Idea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persons/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Malysh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Knowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Knowledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/persons/Malysh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Malysh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Znaika.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Exception" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,12 +43,12 @@
     &quot;assignee&quot;: &quot;GostWave&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GostWave/Lab3&quot;,
-    &quot;accountId&quot;: &quot;26b6b018-ad62-4baa-81b6-0b6ded368e6d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GostWave/Lab3",
+    "accountId": "8bfa4d14-d050-442d-9dad-d43fe318c24d"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -191,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733723635067</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1734974959905</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734974959905</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

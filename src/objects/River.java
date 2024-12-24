@@ -1,8 +1,9 @@
 package objects;
 
-import abstractclasses.Object;
 
-public class River extends Object {
+import abstractclasses.Objects;
+
+public class River extends Objects {
 
     public River(String objectname){
         super(objectname);
