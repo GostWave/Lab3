@@ -33,7 +33,7 @@ public class Main {
         Suggest.suggest("Некоторые", hiking.message());
         Suggest.suggest(" другие");
         Swim.swim(river,boat);
-
+        
         // 3 строчка
         Idea idea=new Idea("Сделать воздушный шар","Давайте сделаем воздушный шар и полетим на шаре");
         znaika.Say(idea.idea());

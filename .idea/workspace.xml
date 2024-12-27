@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/src/exception/NotAllowableBoatSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Objects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Idea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Idea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Knowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Knowledge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persons/Malysh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Malysh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Znaika.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734974959905</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1735052412615</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735052412615</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
