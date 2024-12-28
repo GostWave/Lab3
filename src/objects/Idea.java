@@ -3,10 +3,10 @@ package objects;
 
 import abstractclasses.Objects;
 
-public class Idea extends Objects {
+public class Idea {
     private String idea;
-    public Idea(String objectname,String idea){
-        super(objectname);
+    public Idea(String idea){
+
         this.idea=idea;
 
     }

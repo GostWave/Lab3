@@ -1,6 +1,9 @@
 package groups;
 
 import abstractclasses.Group;
+import abstractclasses.Person;
+import objects.Boat;
+import objects.River;
 
 
 public class Malyshi extends Group {
@@ -37,6 +40,8 @@ public class Malyshi extends Group {
     public int hashCode() {
         return getClass().hashCode();
     }
+
+
 
 
 }

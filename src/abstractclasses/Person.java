@@ -1,11 +1,11 @@
 package abstractclasses;
 
+import interfaces.CanDream;
+import interfaces.CanListen;
+import interfaces.CanSuggest;
 import objects.Knowledge;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public abstract class Person {
+public abstract class Person implements CanListen,CanSuggest, CanDream {
     private String name;
     private int age;
     private Knowledge knowledge;
@@ -44,15 +44,27 @@ public abstract class Person {
         if (knowledge != null) {
             if (k.getKnowledge() == knowledge.getKnowledge()) {
                 System.out.println("Знает как " + k.getKnowledge());
-            }
-            else {
+            } else {
                 System.out.println("Не знает как " + k.getKnowledge());
             }
 
-        }
-        else {
-            System.out.print("Не знает как " + k.getKnowledge()+" ");
+        } else {
+            System.out.print("Не знает как " + k.getKnowledge() + " ");
         }
 
     }
+    @Override
+    public  void suggest(String who_sugget, String phrase ){
+        System.out.print(who_sugget+" предлагали "+phrase);
+    }
+    @Override
+    public void listenStory(){
+        System.out.print("Наслушавшись таких историй, ");
+    }
+    @Override
+    public void dream(Group p, String phrase) {
+        System.out.println(p.getName() + " мечтают о том, " + phrase);
+
+    }
 }
+

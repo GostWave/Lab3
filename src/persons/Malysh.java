@@ -25,4 +25,6 @@ public class Malysh extends Person {
     public int hashCode() {
         return getClass().hashCode();
     }
+
 }
+

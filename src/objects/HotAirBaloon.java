@@ -14,9 +14,7 @@ public class HotAirBaloon extends Objects implements Property {
         this.color=color;
         this.material=material;
     }
-    public String fly(){
-        return "лететь на воздушном шаре";
-    }
+
     @Override
     public void getProperty(){
         System.out.println( "Размер шара: "+size+" Цвет: "+color+" Материал: "+material);

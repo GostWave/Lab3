@@ -1,6 +1,8 @@
 package persons;
 
 import abstractclasses.Person;
+import interfaces.CanListen;
+import interfaces.CanSuggest;
 
 public final class Znaika extends Person {
 
@@ -26,6 +28,8 @@ public final class Znaika extends Person {
     public int hashCode() {
         return getClass().hashCode();
     }
+
+
 
 
 }
