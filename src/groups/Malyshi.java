@@ -23,6 +23,20 @@ public class Malyshi extends Group {
     public String toString(){
         return "Малыши "+this.getMembers();
     }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        } else {
+            return true;
+
+        }
+    }
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
 
 
 }
