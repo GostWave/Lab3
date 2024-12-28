@@ -7,8 +7,8 @@ import java.util.List;
 
 public abstract class Group {
 
-    private List<Person> members;
-    private List<String> names;
+    private ArrayList<Person> members;
+    private ArrayList<String> names;
     private String name;
     public Group(String name){
         this.name=name;
