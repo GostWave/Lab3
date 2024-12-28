@@ -25,11 +25,13 @@ public class HotAirBaloon extends Objects implements Property {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        return true;
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        } else {
+            return true;
 
+        }
     }
-
     @Override
     public int hashCode() {
         return getClass().hashCode();

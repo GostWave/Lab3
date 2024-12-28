@@ -7,6 +7,8 @@
     <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +34,12 @@
     &quot;assignee&quot;: &quot;GostWave&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GostWave/Lab3",
-    "accountId": "8bfa4d14-d050-442d-9dad-d43fe318c24d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GostWave/Lab3&quot;,
+    &quot;accountId&quot;: &quot;8bfa4d14-d050-442d-9dad-d43fe318c24d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -198,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735052412615</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1735330054233</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735330054234</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
