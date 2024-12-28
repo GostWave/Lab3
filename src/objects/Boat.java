@@ -3,10 +3,10 @@ package objects;
 
 import abstractclasses.Objects;
 import enums.BoatType;
-import exception.NotAllowableBoatSize;
+
 import interfaces.Property;
 
-import java.lang.reflect.Type;
+
 
 public class Boat extends Objects implements Property {
     private BoatType type;
@@ -18,13 +18,8 @@ public class Boat extends Objects implements Property {
 
     }
     public void setSize(int length,int width){
-        try {
-            if (length<width){
-                throw new NotAllowableBoatSize("Неверные данные","неверные размеры лодки");
-            }
-        } catch (NotAllowableBoatSize e){
-            System.out.println(e.getMessage());
-        }
+        this.length=length;
+        this.width=width;
     }
 
     public BoatType getType() {

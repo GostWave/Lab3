@@ -1,3 +1,4 @@
+package lab3;
 
 import action.Dream;
 import enums.BoatType;
