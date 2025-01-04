@@ -15,7 +15,7 @@ public class Malyshi extends Group {
         this.flyOnHotAirBaloon=flyOnHotAirBaloon;
     }
     public void checkFlyOnHotAirBaloon(){
-        if (flyOnHotAirBaloon==true){
+        if (flyOnHotAirBaloon){
             System.out.println("Малыши летали на воздушном шаре");
         }
         else {

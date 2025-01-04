@@ -59,7 +59,7 @@ public abstract class Person implements CanListen,CanSuggest, CanDream {
     }
     @Override
     public void listenStory(){
-        System.out.print("Наслушавшись таких историй, ");
+        System.out.print("Слушал историю ");
     }
     @Override
     public void dream(Group p, String phrase) {

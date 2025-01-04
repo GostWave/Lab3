@@ -12,6 +12,7 @@ public class Boat extends Objects implements Property {
     private BoatType type;
     private int length;
     private int width;
+    private Paddle paddle=new Paddle(200);
     public Boat(String objectname, BoatType type){
         super(objectname);
         this.type=type;
@@ -48,5 +49,12 @@ public class Boat extends Objects implements Property {
     @Override
     public int hashCode() {
         return getClass().hashCode();
+    }
+    private class Paddle{
+        private int paddleLength;
+
+        private Paddle(int paddleLength){
+            this.paddleLength=paddleLength;
+        }
     }
 }

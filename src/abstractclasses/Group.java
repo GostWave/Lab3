@@ -40,8 +40,13 @@ public abstract class Group implements CanSuggest, CanListen, CanDream, CanFlyOn
         }
     }
 
-    public List<String> getMembers() {
-
+    public ArrayList<String> getMembers() {
+        class printMembers{
+            final ArrayList<String> memberNames=Group.this.names;
+            void print(){
+                System.out.println(memberNames);
+            }
+        }
         return names;
     }
 
@@ -59,7 +64,7 @@ public abstract class Group implements CanSuggest, CanListen, CanDream, CanFlyOn
 
     @Override
     public void listenStory() {
-        System.out.print("Наслушавшись таких историй, ");
+        System.out.print("Слушали историю");
     }
 
     @Override

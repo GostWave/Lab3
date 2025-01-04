@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CanDream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CanFlyOnHotAirBaloon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CanGoHiking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CanListen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CanSuggest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CanSwim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abstractclasses/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abstractclasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/GoHiking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/GoHiking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/Listen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/Suggest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CanListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/CanListen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persons/Malysh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Malysh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persons/Znaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Znaika.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735370785201</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1735373643702</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735373643702</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
