@@ -58,7 +58,7 @@ public class Main {
         znaika.checkKnowledge(makeHotAirBaloon);
         znaika.Say(" что он все обдумает и тогда объяснит.");
 
-        System.out.println(malyshi.getMembers());
+        malyshi.getMembers();
 
     }
 }

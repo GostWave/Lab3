@@ -24,7 +24,7 @@ public class Malyshi extends Group {
     }
     @Override
     public String toString(){
-        return "Малыши "+this.getMembers();
+        return "Малыши";
     }
     @Override
     public boolean equals(Object o) {

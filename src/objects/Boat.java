@@ -4,6 +4,7 @@ package objects;
 import abstractclasses.Objects;
 import enums.BoatType;
 
+import exception.NotAllowableSizeException;
 import interfaces.Property;
 
 
@@ -19,6 +20,13 @@ public class Boat extends Objects implements Property {
 
     }
     public void setSize(int length,int width){
+        try {
+            if (length<width){
+                throw new NotAllowableSizeException("Неверные данные","неверные размеры лодки");
+            }
+        } catch (NotAllowableSizeException e){
+            System.out.println(e.getMessage());
+        }
         this.length=length;
         this.width=width;
     }

@@ -40,14 +40,15 @@ public abstract class Group implements CanSuggest, CanListen, CanDream, CanFlyOn
         }
     }
 
-    public ArrayList<String> getMembers() {
+    public void getMembers() {
         class printMembers{
             final ArrayList<String> memberNames=Group.this.names;
-            void print(){
-                System.out.println(memberNames);
+            ArrayList<String> print(){
+                return memberNames;
             }
         }
-        return names;
+        printMembers printMembers = new printMembers();
+        printMembers.print();
     }
 
     public int getAmount() {
