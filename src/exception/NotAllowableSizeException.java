@@ -1,6 +1,6 @@
 package exception;
 public class NotAllowableSizeException extends Exception {
-    private String details;
+    final String details;
     public NotAllowableSizeException(String message, String details) {
         super(message);
         this.details = details;
