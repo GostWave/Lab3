@@ -4,31 +4,31 @@ package objects;
 import abstractclasses.Objects;
 import enums.BoatType;
 
-import exception.NotAllowableSizeException;
-import interfaces.Property;
 
+import interfaces.Property;
 
 
 public class Boat extends Objects implements Property {
     private BoatType type;
     private int length;
     private int width;
-    private Paddle paddle=new Paddle(200);
-    public Boat(String objectname, BoatType type){
+    private Paddle paddle = new Paddle(200);
+
+    public Boat(String objectname, BoatType type) {
         super(objectname);
-        this.type=type;
+        this.type = type;
 
     }
-    public void setSize(int length,int width){
-        try {
-            if (length<width){
-                throw new NotAllowableSizeException("Неверные данные","неверные размеры лодки");
-            }
-        } catch (NotAllowableSizeException e){
-            System.out.println(e.getMessage());
+
+    public void setSize(int length, int width) {
+
+        if (length < width) {
+
+
         }
-        this.length=length;
-        this.width=width;
+
+        this.length = length;
+        this.width = width;
     }
 
     public BoatType getType() {
@@ -39,13 +39,15 @@ public class Boat extends Objects implements Property {
         this.type = type;
     }
 
-    public String getSize(){
-        return "Длина: "+length+" ширина: "+width;
+    public String getSize() {
+        return "Длина: " + length + " ширина: " + width;
     }
+
     @Override
-    public void getProperty(){
-        System.out.println("Тип: "+type+" длина: "+ length + " ширина: "+width);
+    public void getProperty() {
+        System.out.println("Тип: " + type + " длина: " + length + " ширина: " + width);
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -58,11 +60,12 @@ public class Boat extends Objects implements Property {
     public int hashCode() {
         return getClass().hashCode();
     }
-    private class Paddle{
+
+    private class Paddle {
         private int paddleLength;
 
-        private Paddle(int paddleLength){
-            this.paddleLength=paddleLength;
+        private Paddle(int paddleLength) {
+            this.paddleLength = paddleLength;
         }
     }
 }
