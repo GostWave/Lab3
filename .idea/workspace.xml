@@ -6,18 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="General update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Objects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/NotAllowableSizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/NotAllowableSizeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Idea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Idea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Knowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Knowledge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +38,7 @@
   }
 }]]></component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -130,7 +118,7 @@
       <workItem from="1734435103634" duration="304000" />
       <workItem from="1735367085892" duration="21000" />
       <workItem from="1736863526231" duration="4000" />
-      <workItem from="1736884848724" duration="5705000" />
+      <workItem from="1736884848724" duration="6122000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -316,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736888841130</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="General update">
+      <option name="closed" value="true" />
+      <created>1736892561929</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736892561929</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

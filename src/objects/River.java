@@ -10,8 +10,5 @@ public class River extends Objects {
 
     }
 
-    public void flow() {
-
-    }
 
 }
