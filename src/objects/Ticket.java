@@ -1,7 +1,6 @@
 package objects;
 
 
-
-public record Ticket(String PassengerName, int id){
+public record Ticket(String PassengerName, int id) {
 
 }

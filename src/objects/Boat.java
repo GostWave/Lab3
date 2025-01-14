@@ -5,6 +5,7 @@ import abstractclasses.Objects;
 import enums.BoatType;
 
 
+import exception.NotAllowableSizeException;
 import interfaces.Property;
 
 
@@ -12,7 +13,7 @@ public class Boat extends Objects implements Property {
     private BoatType type;
     private int length;
     private int width;
-    private Paddle paddle = new Paddle(200);
+    private final Paddle paddle = new Paddle(200);
 
     public Boat(String objectname, BoatType type) {
         super(objectname);
@@ -20,13 +21,10 @@ public class Boat extends Objects implements Property {
 
     }
 
-    public void setSize(int length, int width) {
-
+    public void setSize(int length, int width) throws NotAllowableSizeException {
         if (length < width) {
-
-
+            throw new NotAllowableSizeException("Неврерные размеры", "Длина не может быть меньше ширины");
         }
-
         this.length = length;
         this.width = width;
     }
@@ -37,6 +35,7 @@ public class Boat extends Objects implements Property {
 
     public void setType(BoatType type) {
         this.type = type;
+
     }
 
     public String getSize() {
@@ -46,6 +45,7 @@ public class Boat extends Objects implements Property {
     @Override
     public void getProperty() {
         System.out.println("Тип: " + type + " длина: " + length + " ширина: " + width);
+
     }
 
     @Override
@@ -61,6 +61,7 @@ public class Boat extends Objects implements Property {
         return getClass().hashCode();
     }
 
+    // вложенный класс
     private class Paddle {
         private int paddleLength;
 

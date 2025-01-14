@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="Add local and anon classes">
-      <change afterPath="$PROJECT_DIR$/src/exception/NotAllowableSizeException.java" afterDir="false" />
+    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="General update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/abstractclasses/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstractclasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractclasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/NotAllowableSizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/NotAllowableSizeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/groups/Malyshi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/groups/Malyshi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objects/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/HotAirBaloon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Idea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Idea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Knowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Knowledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/River.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +43,12 @@
     &quot;assignee&quot;: &quot;GostWave&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GostWave/Lab3&quot;,
-    &quot;accountId&quot;: &quot;8bfa4d14-d050-442d-9dad-d43fe318c24d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GostWave/Lab3",
+    "accountId": "26b6b018-ad62-4baa-81b6-0b6ded368e6d"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -73,7 +80,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -90,6 +97,14 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,6 +129,8 @@
       <workItem from="1733679614328" duration="21972000" />
       <workItem from="1734435103634" duration="304000" />
       <workItem from="1735367085892" duration="21000" />
+      <workItem from="1736863526231" duration="4000" />
+      <workItem from="1736884848724" duration="5705000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -275,7 +292,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736000740529</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add exception">
+      <option name="closed" value="true" />
+      <created>1736072384025</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736072384025</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add exception">
+      <option name="closed" value="true" />
+      <created>1736072440478</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736072440478</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update test">
+      <option name="closed" value="true" />
+      <created>1736888841130</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736888841130</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +342,10 @@
     <MESSAGE value="Create enum and all connected with boat" />
     <MESSAGE value="Updates" />
     <MESSAGE value="Add local and anon classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add local and anon classes" />
+    <MESSAGE value="add exception" />
+    <MESSAGE value="update test" />
+    <MESSAGE value="General update" />
+    <option name="LAST_COMMIT_MESSAGE" value="General update" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

@@ -5,7 +5,7 @@ import interfaces.CanListen;
 import interfaces.CanSuggest;
 import objects.Knowledge;
 
-public abstract class Person implements CanListen,CanSuggest, CanDream {
+public abstract class Person implements CanListen, CanSuggest, CanDream {
     private String name;
     private int age;
     private Knowledge knowledge;
@@ -53,14 +53,17 @@ public abstract class Person implements CanListen,CanSuggest, CanDream {
         }
 
     }
+
     @Override
-    public  void suggest(String who_sugget, String phrase ){
-        System.out.print(who_sugget+" предлагали "+phrase);
+    public void suggest(String who_sugget, String phrase) {
+        System.out.print(who_sugget + " предлагали " + phrase);
     }
+
     @Override
-    public void listenStory(){
+    public void listenStory() {
         System.out.print("Слушал историю ");
     }
+
     @Override
     public void dream(Group p, String phrase) {
         System.out.println(p.getName() + " мечтают о том, " + phrase);

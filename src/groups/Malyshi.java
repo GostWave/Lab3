@@ -1,31 +1,32 @@
 package groups;
 
 import abstractclasses.Group;
-import abstractclasses.Person;
-import objects.Boat;
-import objects.River;
 
 
 public class Malyshi extends Group {
     private boolean flyOnHotAirBaloon;
+
     public Malyshi() {
         super("Малыши");
     }
-    public void setFlyOnHotAirBaloon(boolean flyOnHotAirBaloon){
-        this.flyOnHotAirBaloon=flyOnHotAirBaloon;
+
+    public void setFlyOnHotAirBaloon(boolean flyOnHotAirBaloon) {
+        this.flyOnHotAirBaloon = flyOnHotAirBaloon;
     }
-    public void checkFlyOnHotAirBaloon(){
-        if (flyOnHotAirBaloon){
+
+    public void checkFlyOnHotAirBaloon() {
+        if (flyOnHotAirBaloon) {
             System.out.println("Малыши летали на воздушном шаре");
-        }
-        else {
+        } else {
             System.out.println("Малыши никогда не летали на воздушном шаре");
         }
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return "Малыши";
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -36,12 +37,11 @@ public class Malyshi extends Group {
 
         }
     }
+
     @Override
     public int hashCode() {
         return getClass().hashCode();
     }
-
-
 
 
 }

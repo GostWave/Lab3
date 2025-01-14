@@ -1,14 +1,13 @@
 package abstractclasses;
 
 
-
 import groups.Malyshi;
 import interfaces.*;
 import objects.Boat;
 import objects.River;
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public abstract class Group implements CanSuggest, CanListen, CanDream, CanFlyOnHotAirBaloon, CanGoHiking, CanSwim {
 
@@ -31,19 +30,18 @@ public abstract class Group implements CanSuggest, CanListen, CanDream, CanFlyOn
         names.add(p.getName());
     }
 
-    public void removeMembers(int index) {
-        if (index < 0 | index >= members.size()) {
-            System.out.println("Неверный индекс");
-        } else {
-            members.remove(index);
-            names.remove(index);
-        }
+    public void removeMembers(int index) throws IndexOutOfBoundsException {
+        members.remove(index);
+        names.remove(index);
+
     }
 
     public void getMembers() {
-        class printMembers{
-            final ArrayList<String> memberNames=Group.this.names;
-            ArrayList<String> print(){
+        // локальный класс
+        class printMembers {
+            final ArrayList<String> memberNames = Group.this.names;
+
+            ArrayList<String> print() {
                 return memberNames;
             }
         }
@@ -73,16 +71,19 @@ public abstract class Group implements CanSuggest, CanListen, CanDream, CanFlyOn
         System.out.println(p.getName() + " мечтают о том, " + phrase);
 
     }
+
     @Override
-    public void flyOnHotAirBaloon(Malyshi m){
+    public void flyOnHotAirBaloon(Malyshi m) {
         m.setFlyOnHotAirBaloon(true);
     }
+
     @Override
-    public String  goHiking(){
+    public String goHiking() {
         return "совершить пеший поход";
     }
+
     @Override
-    public String  swim(River river, Boat boat){
-        return "плыть по "+ river.getObjectName().substring(0,river.getObjectName().length()-1)+"е"+" на "+boat.getObjectName()+"х" +"\n";
+    public String swim(River river, Boat boat) {
+        return "плыть по " + river.getObjectName().substring(0, river.getObjectName().length() - 1) + "е" + " на " + boat.getObjectName() + "х" + "\n";
     }
 }
