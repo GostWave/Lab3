@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="General update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="799124d2-eec5-4b58-a3c2-f9343f93be71" name="Changes" comment="General update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +29,12 @@
     &quot;assignee&quot;: &quot;GostWave&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GostWave/Lab3",
-    "accountId": "26b6b018-ad62-4baa-81b6-0b6ded368e6d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GostWave/Lab3&quot;,
+    &quot;accountId&quot;: &quot;26b6b018-ad62-4baa-81b6-0b6ded368e6d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -119,6 +117,7 @@
       <workItem from="1735367085892" duration="21000" />
       <workItem from="1736863526231" duration="4000" />
       <workItem from="1736884848724" duration="6122000" />
+      <workItem from="1736893666405" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -312,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736892561929</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="General update">
+      <option name="closed" value="true" />
+      <created>1736893889738</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1736893889738</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
